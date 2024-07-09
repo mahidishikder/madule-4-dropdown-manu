@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  padding: 20px 0px;
+  background-color: rgb(255, 145, 0);
+}
+
+nav > ul{
+  display:flex;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(30, 30, 30);
+  font-size: 20px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  transition: .5s;
+  
+}
+
+.active , nav ul li a:hover{
+  background-color: white;
+
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color:green ;
+  padding: 10px;
+}
+
+nav ul li ul a{
+
+}
+
+nav ul li:hover ul{
+ display: block;
+}
+
+.margin{
+  margin-bottom: 10px;
+}
